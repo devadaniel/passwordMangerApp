@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+
+  background-size: cover;
+  padding: 10px;
+}
+
+.app-logo {
+  height: 50px;
+  width: 140px;
+}
+
+.add-new-password-container {
+  background-color: #5763a5;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.password-manager-image {
+  max-width: 300px;
+  min-width: 100px;
+}
+.password-card-container {
+  background-color: #454f84;
+  background-size: cover;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.add-password-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.website-input-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.website-image {
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input-box {
+  height: 30px;
+  width: 150px;
+  margin-top: 5px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-button {
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.your-password-container {
+  background-color: #5763a5;
+  background-size: cover;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.your-password-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-password-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.password-count {
+  margin-left: 5px;
+  font-family: 'Roboto';
+  font-size: 9px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #c3caea;
+  border-radius: 10px;
+  padding: 8px;
+  color: #ffffff;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.search-box {
+  height: 20px;
+  width: 100px;
+  margin-top: 2px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.search-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.show-password-input-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.check-box {
+  height: 15px;
+  width: 20px;
+  margin-top: 0px;
+}
+
+.show-password-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.each-password-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.each-password-card-container {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.each-password-card-item {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.first-letter-url {
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 40px;
+  margin-right: 10px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #9ba9eb;
+}
+
+.name-password-url-container {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-button-image {
+  width: 20px;
+  height: 20px;
+}
+.start-image {
+  width: 100px;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-password-image {
+  width: 50%;
+}
+
+.no-password-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
